@@ -18,17 +18,17 @@ func helloHandler(res http.ResponseWriter, req *http.Request) {
 		`<doctype html>
 <html>
 	<head>
-		<title>Hello Gopher</title>
+		<title>Heroku Deployment</title>
 	</head>
 	<body>
-		Hello Gopher </br>
-		It is really awesome that both Docker and Kubernetes are written in Go!
+Hurray </br>
+		Finally We got it !!!!!
 	</body>
 </html>`,
 	)
 }
 func defaultHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Go web app powered by Docker")
+	fmt.Fprintf(w, "Heroku Deployment GO")
 }
 
 // GetPort -- get the Port from the Dynamic environment
